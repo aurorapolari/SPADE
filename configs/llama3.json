@@ -1,0 +1,17 @@
+{
+  "model_key": "llama3",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "chat_template": true,
+  "layer": 0,
+  "position": "resid",
+  "k_by_language": {"python": 400, "java": 800},
+  "max_new_tokens": 256,
+  "temperature": 0.2,
+  "seed": 2026,
+  "gate": {
+    "hidden": 256, "dropout": 0.2,
+    "optimizer": "Adam", "lr": 0.0001, "batch_size": 256, "epochs": 3,
+    "clean_weight": 1.0, "obfuscated_weight": 2.0, "binary_weight": 0.001,
+    "target_fpr": 0.05
+  }
+}

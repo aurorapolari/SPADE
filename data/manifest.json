@@ -1,0 +1,147 @@
+{
+  "scope": "Construction examples, code summarization evaluation data, and transfer evaluation data.",
+  "files": [
+    {
+      "path": "data/construction/python/pca_qwen_coder.jsonl.gz",
+      "records": 8000,
+      "sha256": "113bdb00e95f3ce7a947873ae0c2f02df71fed3d19c91dd64a3b3a32ab3462b7",
+      "source": "CodeXGLUE code summarization"
+    },
+    {
+      "path": "data/construction/python/pca_llama3.jsonl.gz",
+      "records": 8000,
+      "sha256": "ce34f2a513b7ce86dff4fc687abe39e2af4da510bb403deb517e1cb08c7a7632",
+      "source": "CodeXGLUE code summarization"
+    },
+    {
+      "path": "data/construction/python/gate_train.jsonl.gz",
+      "records": 20000,
+      "sha256": "fe2f8d7e40c14cd476b9f14ef15b690a8e1bc767e15e6a94f9339473763220b4",
+      "source": "CodeXGLUE code summarization",
+      "shared_by": [
+        "qwen_coder",
+        "llama3"
+      ]
+    },
+    {
+      "path": "data/construction/python/gate_valid.jsonl.gz",
+      "records": 4000,
+      "sha256": "893563f4dd619ef4b00584f6a6132f97090f953c2df24ee19b5729b9ff2042fd",
+      "source": "CodeXGLUE code summarization",
+      "shared_by": [
+        "qwen_coder",
+        "llama3"
+      ]
+    },
+    {
+      "path": "data/evaluation/summary/python.jsonl.gz",
+      "records": 8000,
+      "sha256": "fb9e32adbe4951a75e9eb5ad3492d30b733e7b418c2087f3394a20ac843c4498",
+      "source": "CodeXGLUE code summarization",
+      "reference_sets": 3
+    },
+    {
+      "path": "data/construction/java/pca_qwen_coder.jsonl.gz",
+      "records": 8000,
+      "sha256": "098d424528dbf64f35ff60ab20aa71aa2f35596e1e1b001afcff2108e78ed388",
+      "source": "CodeXGLUE code summarization"
+    },
+    {
+      "path": "data/construction/java/pca_llama3.jsonl.gz",
+      "records": 8000,
+      "sha256": "6bca8f3eb12df5949716fba12e823511571e472c1f7edd09f7cafdf9189d34e3",
+      "source": "CodeXGLUE code summarization"
+    },
+    {
+      "path": "data/construction/java/gate_train.jsonl.gz",
+      "records": 20000,
+      "sha256": "db969765c3d22e63c7f89ea9c0da9dda791c84dc3539403cdb15fb5e865f9631",
+      "source": "CodeXGLUE code summarization",
+      "shared_by": [
+        "qwen_coder",
+        "llama3"
+      ]
+    },
+    {
+      "path": "data/construction/java/gate_valid.jsonl.gz",
+      "records": 6000,
+      "sha256": "d45aef5197c4baee2f586dfe116fbffea6ba9400df465ea3c9ba6e2533caa27f",
+      "source": "CodeXGLUE code summarization",
+      "shared_by": [
+        "qwen_coder",
+        "llama3"
+      ]
+    },
+    {
+      "path": "data/evaluation/summary/java.jsonl.gz",
+      "records": 10000,
+      "sha256": "440d355c613f149b92716d0d361e6b28dba6251dd53df531c18ed653732e22e7",
+      "source": "CodeXGLUE code summarization",
+      "reference_sets": 3
+    },
+    {
+      "path": "data/evaluation/accent/eval_accent.jsonl.gz",
+      "records": 100,
+      "sha256": "fc4d700960ac7f49311eb7a085f83e620fcd8834380b78ce102a393487a95229",
+      "source": "CodeXGLUE code summarization",
+      "target_model": "qwen_coder",
+      "language": "python"
+    },
+    {
+      "path": "data/evaluation/accent/eval_accent_crossdomain.jsonl.gz",
+      "records": 100,
+      "sha256": "a43a8abccc5f2b59e11cd5c70fc29365e0f496be3c951c34a1dcf370c9c55cd2",
+      "source": "CodeXGLUE code summarization",
+      "target_model": "qwen_coder",
+      "language": "python"
+    },
+    {
+      "path": "transfer/security/calibration/ORIGINAL.jsonl",
+      "records": 200,
+      "sha256": "10fbdbb3eef90f026f0aa89ce8a458121149fe9f41f7dc1dbac7b70b0e31405b",
+      "source": "ManyTypes4Py, with task-specific labels"
+    },
+    {
+      "path": "transfer/security/test/GAME.jsonl",
+      "records": 1000,
+      "sha256": "47ea0897121d2e97d0176f19e6753755eea8a2d3a580d41e4ea4e4d60af8f21b",
+      "source": "ManyTypes4Py, with task-specific labels"
+    },
+    {
+      "path": "transfer/security/test/NET.jsonl",
+      "records": 1000,
+      "sha256": "c0824f7508dcaa13ccc87c4eea88096b385bb93229d8afcfedf43b204225ff27",
+      "source": "ManyTypes4Py, with task-specific labels"
+    },
+    {
+      "path": "transfer/security/test/ORIGINAL.jsonl",
+      "records": 1000,
+      "sha256": "9f6ee50adc495b15ccb154000b2c1742a26384ab29b4321454a7cd244a3a886e",
+      "source": "ManyTypes4Py, with task-specific labels"
+    },
+    {
+      "path": "transfer/vul/calibration/ORIGINAL.jsonl",
+      "records": 240,
+      "sha256": "222605ae96c4ae2c4bbc6b1e779dac704f6b703f8b7f1d189fb07525d2ac3c3b",
+      "source": "OWASP Benchmark"
+    },
+    {
+      "path": "transfer/vul/test/GAME.jsonl",
+      "records": 920,
+      "sha256": "8e6f3d01151ba60bf192a772a51a4d4b71ef16df5adde4313619ac5c902c3dd5",
+      "source": "OWASP Benchmark"
+    },
+    {
+      "path": "transfer/vul/test/NET.jsonl",
+      "records": 920,
+      "sha256": "d9d935cf7dce7f08d5007c9be41dce566231906eb5d16b00d413ee16b79ed3cf",
+      "source": "OWASP Benchmark"
+    },
+    {
+      "path": "transfer/vul/test/ORIGINAL.jsonl",
+      "records": 920,
+      "sha256": "e34db06f500cfb57bb5568f35446bc14fd6accb64c90fcc591acc1dbc5aebb3a",
+      "source": "OWASP Benchmark"
+    }
+  ]
+}

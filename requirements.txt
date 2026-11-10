@@ -1,0 +1,11 @@
+torch>=2.2,<3
+transformers>=4.46,<5
+accelerate>=0.30,<2
+numpy>=1.24,<3
+tree-sitter==0.25.2
+tree-sitter-python==0.25.0
+tree-sitter-java==0.23.5
+sacrebleu==2.5.1
+rouge-score==0.1.2
+nltk>=3.8,<4
+tqdm>=4.66,<5

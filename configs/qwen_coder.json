@@ -1,0 +1,17 @@
+{
+  "model_key": "qwen_coder",
+  "model_id": "Qwen/Qwen2.5-Coder-7B",
+  "chat_template": false,
+  "layer": 0,
+  "position": "attn_v",
+  "k_by_language": {"python": 240, "java": 260},
+  "max_new_tokens": 256,
+  "temperature": 0.2,
+  "seed": 2026,
+  "gate": {
+    "hidden": 256, "dropout": 0.2,
+    "optimizer": "Adam", "lr": 0.0001, "batch_size": 256, "epochs": 3,
+    "clean_weight": 1.0, "obfuscated_weight": 2.0, "binary_weight": 0.001,
+    "target_fpr": 0.05
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+models/
+artifacts/
+out/
+workspace/
+*.pt
+*.pth
+*.safetensors
+*.o
+*.so
